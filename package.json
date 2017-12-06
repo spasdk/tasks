@@ -1,0 +1,35 @@
+{
+    "name": "spa-tasks",
+    "version": "1.0.0",
+    "description": "",
+    "author": {
+        "name": "Stanislav Kalashnik",
+        "email": "darkpark.main@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/spasdk/tasks.git"
+    },
+    "scripts": {
+        "lint": "eslint --ignore-pattern '/docs/' .",
+        "test": "npm run lint",
+        "jsdoc": "jsdoc --destination docs *.js readme.md"
+    },
+    "dependencies": {
+        "spa-task-config": "1.*.*"
+    },
+    "devDependencies": {
+        "eslint": "4.*.*",
+        "jsdoc": "3.*.*",
+        "cjs-eslint-config": "1.*.*"
+    },
+    "keywords": [
+        "spa",
+        "spasdk",
+        "framework",
+        "develop",
+        "runner",
+        "tasks"
+    ],
+    "license": "GPL-3.0"
+}
