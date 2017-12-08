@@ -6,6 +6,7 @@
 'use strict';
 
 require('spa-task-config');
+require('./lib/eslint');
 require('./lib/notify');
 require('./lib/pug');
 require('./lib/repl');

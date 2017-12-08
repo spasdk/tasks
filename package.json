@@ -16,7 +16,8 @@
         "jsdoc": "jsdoc --destination docs *.js readme.md"
     },
     "dependencies": {
-        "spa-task-config": "1.*.*"
+        "spa-task-config": "1.*.*",
+        "strip-ansi": "^4.0.0"
     },
     "devDependencies": {
         "eslint": "4.*.*",
