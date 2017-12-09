@@ -7,6 +7,7 @@
 
 require('spa-task-config');
 require('./lib/eslint');
+require('./lib/livereload');
 require('./lib/notify');
 require('./lib/pug');
 require('./lib/repl');
