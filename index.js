@@ -6,12 +6,18 @@
 'use strict';
 
 require('spa-task-config');
-require('./lib/eslint');
 require('./lib/livereload');
 require('./lib/notify');
-require('./lib/pug');
 require('./lib/repl');
-require('./lib/sass');
 require('./lib/static');
 require('./lib/status');
 require('./lib/webpack');
+
+
+// public
+module.exports = {
+    eslint: require('./lib/eslint'),
+    pug:    require('./lib/pug'),
+    sass:   require('./lib/sass'),
+    repl:   require('./lib/repl')
+};
