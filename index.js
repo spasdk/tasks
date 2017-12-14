@@ -5,19 +5,18 @@
 
 'use strict';
 
-require('spa-task-config');
-require('./lib/livereload');
+require('./lib/config');
 require('./lib/notify');
-require('./lib/repl');
-require('./lib/static');
 require('./lib/status');
-require('./lib/webpack');
 
 
 // public
 module.exports = {
-    eslint: require('./lib/eslint'),
-    pug:    require('./lib/pug'),
-    sass:   require('./lib/sass'),
-    repl:   require('./lib/repl')
+    eslint:     require('./lib/eslint'),
+    livereload: require('./lib/livereload'),
+    pug:        require('./lib/pug'),
+    sass:       require('./lib/sass'),
+    repl:       require('./lib/repl'),
+    static:     require('./lib/static'),
+    webpack:    require('./lib/webpack')
 };
