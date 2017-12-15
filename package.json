@@ -1,7 +1,7 @@
 {
     "name": "spa-tasks",
     "version": "1.0.0",
-    "description": "",
+    "description": "node-runner task generators set.",
     "author": {
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
@@ -16,11 +16,20 @@
         "jsdoc": "jsdoc --destination docs *.js readme.md"
     },
     "dependencies": {
-        "spa-task-config": "1.*.*",
-        "strip-ansi": "^4.0.0"
+        "chokidar": "1.*.*",
+        "cjs-async": "1.*.*",
+        "eslint": "4.*.*",
+        "ip": "1.*.*",
+        "node-notifier": "5.*.*",
+        "node-sass": "4.*.*",
+        "node-static": "0.*.*",
+        "open": "0.*.*",
+        "pug": "^2.0.0-rc.4",
+        "strip-ansi": "^4.0.0",
+        "tiny-lr": "1.*.*",
+        "webpack": "3.*.*"
     },
     "devDependencies": {
-        "eslint": "4.*.*",
         "jsdoc": "3.*.*",
         "cjs-eslint-config": "1.*.*"
     },
@@ -30,7 +39,8 @@
         "framework",
         "develop",
         "runner",
-        "tasks"
+        "tasks",
+        "generators"
     ],
     "license": "GPL-3.0"
 }
