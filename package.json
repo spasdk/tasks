@@ -17,15 +17,12 @@
     },
     "dependencies": {
         "chokidar": "1.*.*",
-        "cjs-async": "1.*.*",
         "eslint": "4.*.*",
         "ip": "1.*.*",
-        "node-notifier": "5.*.*",
         "node-sass": "4.*.*",
         "node-static": "0.*.*",
         "open": "0.*.*",
         "pug": "^2.0.0-rc.4",
-        "strip-ansi": "^4.0.0",
         "tiny-lr": "1.*.*",
         "webpack": "3.*.*"
     },

@@ -5,11 +5,6 @@
 
 'use strict';
 
-require('./lib/config');
-require('./lib/notify');
-require('./lib/status');
-
-
 // public
 module.exports = {
     eslint:     require('./lib/eslint'),
