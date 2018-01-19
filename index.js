@@ -8,6 +8,7 @@
 // public
 module.exports = {
     eslint:     require('./lib/eslint'),
+    gettext:    require('./lib/gettext'),
     livereload: require('./lib/livereload'),
     pug:        require('./lib/pug'),
     sass:       require('./lib/sass'),
