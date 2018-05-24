@@ -26,11 +26,11 @@
         "pug": "^2.0.0-rc.4",
         "require-nocache": "1.*.*",
         "tiny-lr": "1.*.*",
-        "webpack": "3.*.*"
+        "webpack": "4.*.*"
     },
     "devDependencies": {
-        "jsdoc": "3.*.*",
-        "cjs-eslint-config": "1.*.*"
+        "cjs-eslint-config": "1.*.*",
+        "jsdoc": "3.*.*"
     },
     "keywords": [
         "spa",
