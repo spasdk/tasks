@@ -1,45 +1,110 @@
 {
+  "_args": [
+    [
+      {
+        "raw": "spa-tasks@^1.1.0",
+        "scope": null,
+        "escapedName": "spa-tasks",
+        "name": "spa-tasks",
+        "rawSpec": "^1.1.0",
+        "spec": ">=1.1.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/ivan/Projects/web/ministra-reporter"
+    ]
+  ],
+  "_from": "spa-tasks@>=1.1.0 <2.0.0",
+  "_id": "spa-tasks@1.1.0",
+  "_inCache": true,
+  "_location": "/spa-tasks",
+  "_nodeVersion": "8.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/spa-tasks-1.1.0.tgz_1516897927854_0.6100786773022264"
+  },
+  "_npmUser": {
+    "name": "darkpark",
+    "email": "darkpark.main@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "spa-tasks@^1.1.0",
+    "scope": null,
+    "escapedName": "spa-tasks",
     "name": "spa-tasks",
-    "version": "1.1.0",
-    "description": "node-runner task generators set.",
-    "author": {
-        "name": "Stanislav Kalashnik",
-        "email": "darkpark.main@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/spasdk/tasks.git"
-    },
-    "scripts": {
-        "lint": "eslint --ignore-pattern '/docs/' .",
-        "test": "npm run lint",
-        "jsdoc": "jsdoc --destination docs *.js readme.md"
-    },
-    "dependencies": {
-        "chokidar": "1.*.*",
-        "eslint": "4.*.*",
-        "gettext-parser": "1.*.*",
-        "ip": "1.*.*",
-        "node-sass": "4.*.*",
-        "node-static": "0.*.*",
-        "open": "0.*.*",
-        "pug": "^2.0.0-rc.4",
-        "require-nocache": "1.*.*",
-        "tiny-lr": "1.*.*",
-        "webpack": "4.*.*"
-    },
-    "devDependencies": {
-        "cjs-eslint-config": "1.*.*",
-        "jsdoc": "3.*.*"
-    },
-    "keywords": [
-        "spa",
-        "spasdk",
-        "framework",
-        "develop",
-        "runner",
-        "tasks",
-        "generators"
-    ],
-    "license": "GPL-3.0"
+    "rawSpec": "^1.1.0",
+    "spec": ">=1.1.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://10.118.48.2:4873/spa-tasks/-/spa-tasks-1.1.0.tgz",
+  "_shasum": "c2481cfc970542abe97c021964d52c1a9954f8fe",
+  "_shrinkwrap": null,
+  "_spec": "spa-tasks@^1.1.0",
+  "_where": "/home/ivan/Projects/web/ministra-reporter",
+  "author": {
+    "name": "Stanislav Kalashnik",
+    "email": "darkpark.main@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/spasdk/tasks/issues"
+  },
+  "dependencies": {
+    "chokidar": "1.*.*",
+    "eslint": "4.*.*",
+    "gettext-parser": "1.*.*",
+    "ip": "1.*.*",
+    "node-sass": "4.*.*",
+    "node-static": "0.*.*",
+    "open": "0.*.*",
+    "pug": "^2.0.0-rc.4",
+    "require-nocache": "1.*.*",
+    "tiny-lr": "1.*.*",
+    "webpack": "4.*.*"
+  },
+  "description": "node-runner task generators set.",
+  "devDependencies": {
+    "cjs-eslint-config": "1.*.*",
+    "jsdoc": "3.*.*"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-YmxPFGHeiAtql4uC6/ylnLghoqDRFNJYDVWWWXuew/7ZaLTvPa62WchWq0x7C7JZTjFG33wK34FwC2KKpWFbLQ==",
+    "shasum": "c2481cfc970542abe97c021964d52c1a9954f8fe",
+    "tarball": "http://10.118.48.2:4873/spa-tasks/-/spa-tasks-1.1.0.tgz"
+  },
+  "gitHead": "2f4fbc4cec3e603468fc9edd694d3cb86d29f05e",
+  "homepage": "https://github.com/spasdk/tasks#readme",
+  "keywords": [
+    "spa",
+    "spasdk",
+    "framework",
+    "develop",
+    "runner",
+    "tasks",
+    "generators"
+  ],
+  "license": "GPL-3.0",
+  "maintainers": [
+    {
+      "name": "darkpark",
+      "email": "darkpark.main@gmail.com"
+    }
+  ],
+  "name": "spa-tasks",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spasdk/tasks.git"
+  },
+  "scripts": {
+    "jsdoc": "jsdoc --destination docs *.js readme.md",
+    "lint": "eslint --ignore-pattern '/docs/' .",
+    "test": "npm run lint"
+  },
+  "version": "1.1.0"
 }
