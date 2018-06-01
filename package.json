@@ -1,6 +1,6 @@
 {
     "name": "spa-tasks",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "node-runner task generators set.",
     "author": {
         "name": "Stanislav Kalashnik",
@@ -16,21 +16,21 @@
         "jsdoc": "jsdoc --destination docs *.js readme.md"
     },
     "dependencies": {
-        "chokidar": "1.*.*",
-        "eslint": "4.*.*",
-        "gettext-parser": "1.*.*",
-        "ip": "1.*.*",
-        "node-sass": "4.*.*",
-        "node-static": "0.*.*",
-        "open": "0.*.*",
-        "pug": "^2.0.0-rc.4",
-        "require-nocache": "1.*.*",
-        "tiny-lr": "1.*.*",
-        "webpack": "4.*.*"
+        "chokidar": "2",
+        "eslint": "4",
+        "gettext-parser": "1",
+        "ip": "1",
+        "node-sass": "4",
+        "node-static": "0",
+        "open": "0",
+        "pug": "2",
+        "require-nocache": "1",
+        "tiny-lr": "1",
+        "webpack": "4"
     },
     "devDependencies": {
-        "jsdoc": "3.*.*",
-        "cjs-eslint-config": "1.*.*"
+        "jsdoc": "3",
+        "cjs-eslint-config": "1"
     },
     "keywords": [
         "spa",
